@@ -12,11 +12,50 @@ function App() {
   return (
     <div className="App">
       <Box className="App-header" component="header">
-        <Image src={logo} alt="ifd-logo" height={200} width={200} fit="cover"/>
+        <Box
+          sx={{
+            height: {xs: 70, sm: 120, md: 150},
+            width: "auto"
+          }}
+        >
+          <Image 
+            src={logo} 
+            alt="ifd-logo" 
+            fit="cover"
+            duration={100}
+          />
+        </Box>
+
         <Box>
-          <Typography variant="h3">INCLUSIVE FLORAL DESIGNS</Typography>
-          <Typography variant="h5">FLORES-FLOWERS</Typography>
-          <Typography variant="h6">NOVELTIES</Typography>
+          <Typography 
+            variant="h3" 
+            sx={{
+              fontFamily: "Oswald", 
+              fontWeight: 400, 
+              letterSpacing: 1.5,
+              color: "#473d49",
+              textShadow: "2px 3px 4px rgba(0,0,0,0.15);"
+            }}
+          >INCLUSIVE FLORAL DESIGNS</Typography>
+          <Typography 
+            variant="h5" 
+            sx={{
+              fontFamily: "Montserrat", 
+              fontWeight: 400, 
+              letterSpacing: 1.25, 
+              mt: 1.25, 
+              color: "#695e6c"
+            }}
+          >FLORES-FLOWERS</Typography>
+          <Typography 
+            variant="h6" 
+            sx={{
+              fontFamily: "Montserrat", 
+              fontWeight: 200, 
+              letterSpacing: 1.25, 
+              color: "#7a707c"
+            }}
+          >NOVELTIES</Typography>
         </Box>
         <Box>
           <Box>
