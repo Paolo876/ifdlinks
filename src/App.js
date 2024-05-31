@@ -15,7 +15,8 @@ function App() {
         <Box
           sx={{
             height: {xs: 70, sm: 120, md: 150},
-            width: "auto"
+            width: "auto",
+            mb: 2.5
           }}
         >
           <Image 
@@ -30,34 +31,43 @@ function App() {
           <Typography 
             variant="h3" 
             sx={{
-              fontFamily: "Oswald", 
-              fontWeight: 400, 
-              letterSpacing: 1.5,
-              color: "#473d49",
-              textShadow: "2px 3px 4px rgba(0,0,0,0.15);"
+              fontFamily: "Montserrat", 
+              fontWeight: 500, 
+              letterSpacing: {xs: -.5, sm: 1.2, md:1.5},
+              color: "#352e37",
+              textShadow: "2px 3px 4px rgba(0,0,0,0.1);",
+              fontSize: {xs: "1.3em", sm: "1.8em", md: "1.8em"}
             }}
           >INCLUSIVE FLORAL DESIGNS</Typography>
           <Typography 
             variant="h5" 
             sx={{
+              mt: {xs: .25, sm: .5, md: 1}, 
+              opacity: .9,
               fontFamily: "Montserrat", 
               fontWeight: 400, 
-              letterSpacing: 1.25, 
-              mt: 1.25, 
-              color: "#695e6c"
+              letterSpacing: {xs: 1, sm: 1.2, md:1.5},
+              color: "#473d49",
+              textShadow: "2px 3px 4px rgba(0,0,0,0.05);",
+              fontSize: {xs: "1em", sm: "1.15em", md: "1em"}
+
             }}
           >FLORES-FLOWERS</Typography>
           <Typography 
             variant="h6" 
             sx={{
+              mt: {xs: .15, sm: .25, md: .7}, 
+              opacity: .9,
               fontFamily: "Montserrat", 
-              fontWeight: 200, 
-              letterSpacing: 1.25, 
-              color: "#7a707c"
+              fontWeight: 300, 
+              letterSpacing: {xs: 1.25, sm: 1.25, md:1.5},
+              color: "#594d5c",
+              textShadow: "2px 3px 4px rgba(0,0,0,0.05);",
+              fontSize: {xs: ".75em", sm: ".9em", md: ".9em"}
             }}
           >NOVELTIES</Typography>
         </Box>
-        <Box>
+        <Box mt={3}>
           <Box>
             <Button variant="outlined" startIcon={<LanguageIcon/>}>Website</Button>
           </Box>
