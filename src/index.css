@@ -13,7 +13,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: #eacda3;  /* fallback for old browsers */
   background: -webkit-linear-gradient(360deg, #d6ae7b, #eacda3);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(360deg, #c59d67, #dab47e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
+  background: linear-gradient(360deg, #c4a174, #d4b992); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100vh;
 }
 
