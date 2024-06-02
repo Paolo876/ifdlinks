@@ -2,7 +2,6 @@ import { Box, Typography } from '@mui/material';
 import './App.css';
 import bg from "./assets/bg.webp"
 import MainContent from './components/MainContent';
-import Footer from './components/Footer';
 
 
 function App() {

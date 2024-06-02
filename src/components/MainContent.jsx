@@ -18,8 +18,8 @@ const MainContent = () => {
         borderRadius: "1em",
         border: 1,
         borderColor: "rgba(255,255,255,.15)",
-        backdropFilter: "blur(2px) brightness(110%)",
-        backgroundColor: "rgba(255,255,255,.05)",
+        backdropFilter: "blur(1px) brightness(102%)",
+        backgroundColor: "rgba(255,255,255,.15)",
         boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px"
       }}
     >
