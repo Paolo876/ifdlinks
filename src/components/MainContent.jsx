@@ -51,12 +51,12 @@ const MainContent = () => {
             // letterSpacing: {xs: 1, sm: 1.2, md:2},
             letterSpacing: {xs: 1.75, sm: 2.25, md:2.5},
             color: "#352e37",
-            textShadow: "2px 3px 4px rgba(80,80,80,0.25);",
+            // textShadow: "2px 3px 4px rgba(80,80,80,0.25);",
             // fontSize: {xs: "2em", sm: "2em", md: "3em"}
             fontSize: {xs: "1.5em", sm: "2.1em", md: "2.2em"},
           }}
           >Inclusive Floral Designs</Typography>
-        <Box sx={{width: "80%", height: "1px", backgroundColor: "black", opacity: ".25", mt: 1.5, mx: "auto"}}></Box>
+        <Box sx={{width: "80%", height: "1px", backgroundColor: "black", opacity: ".2", mt: 1.5, mb: 1, mx: "auto"}}></Box>
         <Typography 
           variant="h5" 
           sx={{
@@ -66,7 +66,7 @@ const MainContent = () => {
             fontWeight: 400, 
             letterSpacing: {xs: 1, sm: 1.2, md:1.5},
             color: "#473d49",
-            textShadow: "2px 3px 4px rgba(80,80,80,0.15);",
+            // textShadow: "2px 3px 4px rgba(80,80,80,0.15);",
             fontSize: {xs: ".85em", sm: "1.25em", md: "1.4em"}
           }}
         >FLORES-FLOWERS</Typography>
@@ -79,7 +79,7 @@ const MainContent = () => {
             fontWeight: 500, 
             letterSpacing: {xs: 1.25, sm: 1.25, md:1.5},
             color: "#594d5c",
-            textShadow: "2px 3px 4px rgba(80,80,80,0.15);",
+            // textShadow: "2px 3px 4px rgba(80,80,80,0.15);",
             fontSize: {xs: ".65em", sm: "1em", md: "1.1em"}
           }}
         >NOVELTIES</Typography>

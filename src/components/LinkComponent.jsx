@@ -24,12 +24,11 @@ const LinkComponent = ({title, icon, link}) => {
           py: {xs: .75, sm:1},
           px: {xs: 1.25, sm:1.5},
           position: "relative",
-          boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",
+          // boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",
           border: 2,
           borderColor: "rgba(100, 100, 111, 0.7)",
         }}
         href={link}
-        
       >
         <Box sx={{width: "fit-content", position: "absolute", fontSize: {xs: "1.15em", sm: "1.2em", md: "1.3em"},}}>
           {icon}
