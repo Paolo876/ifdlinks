@@ -46,12 +46,12 @@ const MainContent = () => {
         <Typography 
           variant="h3" 
           sx={{
-              fontFamily: "Oswald", 
-              fontWeight: 500, 
-              letterSpacing: {xs: -.5, sm: 1.2, md:1.5},
+              fontFamily: "Merienda", 
+              fontWeight: 700, 
+              letterSpacing: {xs: -.75, sm: 1.2, md:1.5},
               color: "#352e37",
-              textShadow: "2px 3px 4px rgba(0,0,0,0.1);",
-              fontSize: {xs: "1.6em", sm: "2em", md: "2.2em"}
+              textShadow: "2px 3px 4px rgba(80,80,80,0.25);",
+              fontSize: {xs: "1.4em", sm: "2em", md: "2.2em"}
           }}
           >INCLUSIVE FLORAL DESIGNS</Typography>
         <Typography 
@@ -63,21 +63,21 @@ const MainContent = () => {
             fontWeight: 400, 
             letterSpacing: {xs: 1, sm: 1.2, md:1.5},
             color: "#473d49",
-            textShadow: "2px 3px 4px rgba(0,0,0,0.05);",
+            textShadow: "2px 3px 4px rgba(80,80,80,0.15);",
             fontSize: {xs: ".85em", sm: "1.25em", md: "1.4em"}
           }}
         >FLORES-FLOWERS</Typography>
         <Typography 
           variant="h6" 
           sx={{
-            mt: {xs: .15, sm: .25, md: .7}, 
-            opacity: .9,
+            mt: {xs: .15, sm: .25, md: .5}, 
+            // opacity: .9,
             fontFamily: "Montserrat", 
             fontWeight: 300, 
             letterSpacing: {xs: 1.25, sm: 1.25, md:1.5},
             color: "#594d5c",
-            textShadow: "2px 3px 4px rgba(0,0,0,0.05);",
-            fontSize: {xs: ".7em", sm: "1em", md: "1.2em"}
+            textShadow: "2px 3px 4px rgba(80,80,80,0.15);",
+            fontSize: {xs: ".65em", sm: "1em", md: "1.1em"}
           }}
         >NOVELTIES</Typography>
       </Box>

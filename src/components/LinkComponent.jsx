@@ -6,7 +6,7 @@ const LinkComponent = ({title, icon, link}) => {
 
 
   return (
-    <Box sx={{mb: {xs: 1.75, sm: 2, md: 2.25}}}>
+    <Box sx={{mb: {xs: 2, sm: 2.5, md: 2.75}}}>
       <ButtonBase 
         variant="contained"
         sx={{
@@ -38,8 +38,8 @@ const LinkComponent = ({title, icon, link}) => {
           <Typography
             variant='h6'
             sx={{
-              fontWeight: 500,
-              fontFamily: "Oswald",
+              fontWeight: 600,
+              fontFamily: "Merienda",
               letterSpacing: 1,
               fontSize: {xs: ".9em", sm: "1.2em", md: "1.3em"},
               
