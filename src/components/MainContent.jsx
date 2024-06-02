@@ -20,7 +20,7 @@ const MainContent = () => {
         borderColor: "rgba(255,255,255,.15)",
         backdropFilter: "blur(1px) brightness(102%)",
         backgroundColor: "rgba(255,255,255,.15)",
-        boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px"
+        // boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px"
       }}
     >
       <Box
@@ -46,20 +46,23 @@ const MainContent = () => {
         <Typography 
           variant="h3" 
           sx={{
-              fontFamily: "Merienda", 
-              fontWeight: 700, 
-              letterSpacing: {xs: -.75, sm: 1.2, md:1.5},
-              color: "#352e37",
-              textShadow: "2px 3px 4px rgba(80,80,80,0.25);",
-              fontSize: {xs: "1.4em", sm: "2em", md: "2.2em"}
+            fontFamily: "Poiret One", 
+            fontWeight: 700, 
+            // letterSpacing: {xs: 1, sm: 1.2, md:2},
+            letterSpacing: {xs: 1.75, sm: 2.25, md:2.5},
+            color: "#352e37",
+            textShadow: "2px 3px 4px rgba(80,80,80,0.25);",
+            // fontSize: {xs: "2em", sm: "2em", md: "3em"}
+            fontSize: {xs: "1.5em", sm: "2.1em", md: "2.2em"},
           }}
-          >INCLUSIVE FLORAL DESIGNS</Typography>
+          >Inclusive Floral Designs</Typography>
+        <Box sx={{width: "80%", height: "1px", backgroundColor: "black", opacity: ".25", mt: 1.5, mx: "auto"}}></Box>
         <Typography 
           variant="h5" 
           sx={{
             mt: {xs: .25, sm: .5, md: 1}, 
             opacity: .9,
-            fontFamily: "Montserrat", 
+            fontFamily: "Forum", 
             fontWeight: 400, 
             letterSpacing: {xs: 1, sm: 1.2, md:1.5},
             color: "#473d49",
@@ -70,10 +73,10 @@ const MainContent = () => {
         <Typography 
           variant="h6" 
           sx={{
-            mt: {xs: .15, sm: .25, md: .5}, 
-            // opacity: .9,
-            fontFamily: "Montserrat", 
-            fontWeight: 300, 
+            mt: {xs: .15, sm: .25, md: .25}, 
+            opacity: .75,
+            fontFamily: "Forum", 
+            fontWeight: 500, 
             letterSpacing: {xs: 1.25, sm: 1.25, md:1.5},
             color: "#594d5c",
             textShadow: "2px 3px 4px rgba(80,80,80,0.15);",

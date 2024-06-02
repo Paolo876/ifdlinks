@@ -39,8 +39,8 @@ const LinkComponent = ({title, icon, link}) => {
             variant='h6'
             sx={{
               fontWeight: 600,
-              fontFamily: "Merienda",
-              letterSpacing: 1,
+              fontFamily: "Poiret One",
+              letterSpacing: {xs: 1.75, sm: 2.25, md:2.5},
               fontSize: {xs: ".9em", sm: "1.2em", md: "1.3em"},
               
             }}
