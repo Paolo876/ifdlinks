@@ -10,7 +10,7 @@ function App() {
       {/* background pattern */}
       <Box 
         sx={{
-          opacity: .1, 
+          opacity: .2, 
           position: "absolute", 
           zIndex: -1, 
           height: "100vh", 

@@ -11,12 +11,24 @@ import LinkComponent from './LinkComponent';
 
 const MainContent = () => {
   return (
-    <Box>
+    <Box
+      sx={{
+        my: {xs: 3, sm: 8, md: 10},
+        py: {xs: 3, sm: 5, md: 6},
+        px: {xs: 3, sm: 5, md: 8},
+        borderRadius: "1em",
+        border: 1,
+        borderColor: "rgba(255,255,255,.15)",
+        backdropFilter: "blur(2px) brightness(110%)",
+        backgroundColor: "rgba(255,255,255,.05)",
+        boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px"
+      }}
+    >
       <Box
         sx={{
-        height: {xs: 70, sm: 120, md: 130},
+        height: {xs: 60, sm: 120, md: 130},
         width: "auto",
-        mb: 2.5
+        mb: 2,
         }}
       >
         <Image 
@@ -26,7 +38,12 @@ const MainContent = () => {
         duration={100}
         />
       </Box>
-      <Box>
+      <Box
+        sx={{
+          width: "100%",
+          mb: 6
+        }}
+      >
         <Typography 
           variant="h3" 
           sx={{
@@ -35,7 +52,7 @@ const MainContent = () => {
               letterSpacing: {xs: -.5, sm: 1.2, md:1.5},
               color: "#352e37",
               textShadow: "2px 3px 4px rgba(0,0,0,0.1);",
-              fontSize: {xs: "1.4em", sm: "2em", md: "2.2em"}
+              fontSize: {xs: "1.6em", sm: "2em", md: "2.2em"}
           }}
           >INCLUSIVE FLORAL DESIGNS</Typography>
         <Typography 
@@ -66,14 +83,51 @@ const MainContent = () => {
         >NOVELTIES</Typography>
       </Box>
       <Box mt={3}>
-        <LinkComponent title="Home Page" icon={<LanguageIcon/>}/>
-
-        <Box>
-          <Button variant="outlined" startIcon={<FacebookIcon/>}>Facebook</Button>
-        </Box>
-        <Box>
-          <Button variant="outlined" startIcon={<InstagramIcon/>}>Instagram</Button>
-        </Box>
+        <LinkComponent 
+          title="Home Page" 
+          link="https://ifdflowersla.com/"
+          icon={
+            <LanguageIcon 
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                flexWrap: 'wrap',
+                fontSize: "1.4em",
+                color: "#EE8415"
+              }}
+            />
+          }
+        />
+        <LinkComponent 
+          title="Instagram" 
+          link="https://www.instagram.com/ifdflower48/"
+          icon={
+            <InstagramIcon 
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                flexWrap: 'wrap',
+                fontSize: "1.4em",
+                color: "#DD6122"
+              }}
+            />
+          }
+        />
+        <LinkComponent 
+          title="Facebook" 
+          link="https://www.facebook.com/inclusivefloralLA"
+          icon={
+            <FacebookIcon 
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                flexWrap: 'wrap',
+                fontSize: "1.4em",
+                color: "#1C6CCE"
+              }}
+            />
+          }
+        />
       </Box>
       <Box>
         <Box>
