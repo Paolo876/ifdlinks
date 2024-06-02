@@ -1,7 +1,8 @@
-import { Box } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 import './App.css';
 import bg from "./assets/bg.webp"
 import MainContent from './components/MainContent';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -24,6 +25,9 @@ function App() {
         component="header"
       >
         <MainContent/>
+      </Box>
+      <Box>
+        <Typography sx={{fontSize: {xs: ".6em", sm: ".75em", md: ".8em"}, fontFamily: "Montserrat", opacity: .75}}>© 2024 Inclusive Floral Designs LA, All rights reserved.</Typography>
       </Box>
     </div>
   );

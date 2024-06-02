@@ -5,15 +5,14 @@ import logo from "../assets/ifd_logo.png"
 import LanguageIcon from '@mui/icons-material/Language';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import PhoneIcon from '@mui/icons-material/Phone';
-import EmailIcon from '@mui/icons-material/Email';
 import LinkComponent from './LinkComponent';
+import Footer from './Footer';
 
 const MainContent = () => {
   return (
     <Box
       sx={{
-        my: {xs: 3, sm: 8, md: 10},
+        my: {xs: 5, sm: 8, md: 10},
         py: {xs: 3, sm: 5, md: 6},
         px: {xs: 3, sm: 5, md: 8},
         borderRadius: "1em",
@@ -129,23 +128,7 @@ const MainContent = () => {
           }
         />
       </Box>
-      <Box>
-        <Box>
-          <Typography>1802 N. Broadway <Box component="br"></Box>Los Angeles, CA 90031</Typography>
-        </Box>
-        <Box>
-          <PhoneIcon/>
-          <Typography>(323) 332 - 2280</Typography>
-        </Box>
-        <Box>
-          <PhoneIcon/>
-          <Typography>(562) 753 - 3215</Typography>
-        </Box>
-        <Box>
-          <EmailIcon/>
-          <Typography>ifdflowers48@gmail.com</Typography>
-        </Box>
-      </Box>
+      <Footer/>
     </Box>
   )
 }
